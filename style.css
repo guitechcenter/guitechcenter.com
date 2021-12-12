@@ -191,6 +191,14 @@ h3{
 	text-align: center;
 	padding-top: 50px;
 }
+.campus h1{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+
+}
+
 .campus-col{
 	flex-basis: 32%;
 	border-radius: 10px;
@@ -239,6 +247,12 @@ h3{
 	text-align: center;
 	padding-top: 100px;
 }
+.facilities h1{
+	font-size: 25px;
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
 .facilities-col{
 	flex-basis: 31%;
 	border-radius: 10px;
@@ -264,7 +278,12 @@ h3{
 	margin: auto;
 	padding-top: 100px;
 	text-align: center;
-
+}
+.testimonials h1{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
 }
 .testimonials-col{
 	flex-basis: 44%;
@@ -355,6 +374,10 @@ h3{
 }
 .sub-header h1{
 	margin-top: 100px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
 }
 .about-us{
 	width: 80%;
@@ -371,6 +394,8 @@ h3{
 }
 .about-col h1{
 	padding-top: 0;
+	font-size: 20px;
+	font-weight: 600;
 }
 .about-col{
 	padding: 15px 0 25px;
