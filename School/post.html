@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guinea Technology Ceneter</title>
+
+	<!--jQuery Link--->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!--Css link-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Font awesome link-->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+<!--Navigation-->
+<nav>
+<img src="images/logo.svg">
+
+<div class="navigation" id="navigation">
+		
+	<ul>
+ 		<i class="fas fa-times" id="menu-close"></i>
+		<li><a href="index.html">Home</a></li>
+		<li><a  href="about.html">About</a></li>
+		<li><a class="active" href="blog.html">Blog</a></li>
+		<li><a href="course.html">Courses</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		
+	</ul>
+	<img id="menu-btn" src="images/menu.png">
+</div>
+
+</nav>
+
+<!--Read more-->
+<section id="blog-container">
+	<div class="blogs blogpost">
+		<div class="post">
+			<img src="images/b1.jpg">
+			<h3>Learn web Development In The Easiest way</h3>
+			<p>By listening to the crowd and asking for their contributions, organisations can gain firsthand insight into their customers’ needs and desires, and build products and services that 
+meet those needs and desires. With an earned sense of ownership, communities may feel a 
+brand-building kinship with the community through collaboration and contribution.</p>
+	
+	<p>Digital marketing is powerful in two fundamental ways. First, the audience can be segmented 
+very precisely – even down to factors like current location and recent brand interactions – which 
+means that messages can (and must) be personalised and tailored specially for them.
+Second, the digital sphere is almost completely measurable – every minute and every click by a 
+customer can be accounted for. In digital you can see exactly how various campaigns are 
+performing, which channels bring the most benefit, and where your efforts are best focused.</p>
+<p>Digital marketing is powerful in two fundamental ways. First, the audience can be segmented 
+very precisely – even down to factors like current location and recent brand interactions – which 
+means that messages can (and must) be personalised and tailored specially for them.
+Second, the digital sphere is almost completely measurable – every minute and every click by a 
+customer can be accounted for. In digital you can see exactly how various campaigns are 
+performing, which channels bring the most benefit, and where your efforts are best focused.</p>
+<p>Digital marketing is powerful in two fundamental ways. First, the audience can be segmented 
+very precisely – even down to factors like current location and recent brand interactions – which 
+means that messages can (and must) be personalised and tailored specially for them.
+Second, the digital sphere is almost completely measurable – every minute and every click by a 
+customer can be accounted for. In digital you can see exactly how various campaigns are 
+performing, which channels bring the most benefit, and where your efforts are best focused.Ultimately, the aim of any type of marketing is to keep customers and stimulate sales in the 
+future. Digital communication tools make it possible to connect and build long-term 
+relationships with customers. 
+Digital marketing helps to create consumer demand by using the power of the interconnected, 
+interactive web. It enables the exchange of currency but, more than that, it enables the 
+exchange of attention for value. This is referred to as the attention economy.
+</p>
+<p>Digital marketing is powerful in two fundamental ways. First, the audience can be segmented 
+very precisely – even down to factors like current location and recent brand interactions – which 
+means that messages can (and must) be personalised and tailored specially for them.
+Second, the digital sphere is almost completely measurable – every minute and every click by a 
+customer can be accounted for. In digital you can see exactly how various campaigns are 
+performing, which channels bring the most benefit, and where your efforts are best focused.
+Ultimately, the aim of any type of marketing is to keep customers and stimulate sales in the 
+future. Digital communication tools make it possible to connect and build long-term 
+relationships with customers. 
+Digital marketing helps to create consumer demand by using the power of the interconnected, 
+interactive web. It enables the exchange of currency but, more than that, it enables the 
+exchange of attention for value. This is referred to as the attention economy.
+</p>
+	<a href="#">Read Next ?</a>
+		</div>
+	</div>
+</section>
+
+<!---Footer-->
+<footer>
+	<div class="footer-col">
+		<h3>Top Products</h3>
+		<li>Manage Reputation</li>
+		<li>Power Tools</li>
+		<li>Managed Website</li>
+		<li>Marketing Service</li>
+	</div>
+	<div class="footer-col">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Brand Assets</li>
+		<li>Investor Relations</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col">
+		<h3>Features</h3>
+		<li>Manage Reputation</li>
+		<li>Power Tools</li>
+		<li>Managed Website</li>
+		<li>Marketing Service</li>
+	</div>
+	<div class="footer-col">
+		<h3>Resources</h3>
+		<li>Guides</li>
+		<li>Research</li>
+		<li>Experts</li>
+		<li>Marketing Service</li>
+	</div>
+
+	<div class="footer-col">
+		<h3>New Letter</h3>
+		<p>You can trust us. We only send promo offers</p>
+		<div class="subscribe">
+			<form>
+				<input id="send" type="email" placeholder="Your Email address" class="insert" required>
+			<input type="Submit" name="SUBSCRIBE" class="yellow">
+			</form>
+		</div>
+	</div>
+
+	<div class="copyright">
+		<p>Copyright ©2022 All right reserved | This template is made by Guinea Technology Center </p>
+		<div class="pro-links">
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin-in"></i>
+		</div>
+	</div>
+</footer>
+
+<!--Javscript for Toggle Menu-->
+<script>
+	$('#menu-btn').click(function(){
+		$('nav .navigation ul').addClass('active')
+	});
+
+	$('#menu-close').click(function(){
+		$('nav .navigation ul').removeClass('active')
+	});
+</script>
+</body>
+</html>

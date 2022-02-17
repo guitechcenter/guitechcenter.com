@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guinea Technology Ceneter</title>
+
+	<!--jQuery Link--->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!--Css link-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Font awesome link-->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+<!--Navigation-->
+<nav>
+<img src="images/logo.svg">
+
+<div class="navigation" id="navigation">
+		
+	<ul>
+ 		<i class="fas fa-times" id="menu-close"></i>
+		<li><a href="index.html">Home</a></li>
+		<li><a  href="about.html">About</a></li>
+		<li><a class="active" href="blog.html">Blog</a></li>
+		<li><a href="course.html">Courses</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		
+	</ul>
+	<img id="menu-btn" src="images/menu.png">
+</div>
+
+</nav>
+
+<!--Home-->
+<section id="about-home">
+	<h2>Blog /</h2>
+</section>
+
+<!--blog page-->
+<section id="blog-container">
+	<div class="blogs">
+		<div class="post">
+			<img src="images/b1.jpg">
+			<h3>Learn web Development In The Easiest way</h3>
+			<p>Given that the Internet connects people all over the world through different publishing tools 
+			and technologies, the information and ideas on these channels have become commodities in 
+			themselves. In the past, we had to gather physically to create crowds.</p>
+			<a href="post.html">Read More</a>
+		</div>
+		<div class="post">
+			<img src="images/b2.jpg">
+			<h3>Learn web Development In The Easiest way</h3>
+			<p>Given that the Internet connects people all over the world through different publishing tools 
+			and technologies, the information and ideas on these channels have become commodities in 
+			themselves. In the past, we had to gather physically to create crowds.</p>
+			<a href="#">Read More</a>
+		</div>
+		<div class="post">
+			<img src="images/b3.jpg">
+			<h3>Learn web Development In The Easiest way</h3>
+			<p>Given that the Internet connects people all over the world through different publishing tools 
+			and technologies, the information and ideas on these channels have become commodities in 
+			themselves. In the past, we had to gather physically to create crowds.</p>
+			<a href="#">Read More</a>
+		</div>
+		<div class="post">
+			<img src="images/b4.png">
+			<h3>Learn web Development In The Easiest way</h3>
+			<p>Given that the Internet connects people all over the world through different publishing tools 
+			and technologies, the information and ideas on these channels have become commodities in 
+			themselves. In the past, we had to gather physically to create crowds.</p>
+			<a href="#">Read More</a>
+		</div>
+	</div>
+
+	<div class="cate">
+		<h2>Category</h2>
+	<hr>
+	<a href="#">Web Development </a>
+	<hr>
+	<hr>
+	<a href="#">Web Design </a>
+	<hr>
+	<hr>
+	<a href="#">App Development</a>
+	<hr>
+	<hr>
+	<a href="#">Frontend web </a>
+	<hr>
+	<hr>
+	<a href="#">Python programing</a>
+	<hr>
+	<hr>
+	<a href="#">JavaScript Hacks </a>
+	<hr>
+	</div>
+</section> 
+
+<!---Footer-->
+<footer>
+	<div class="footer-col">
+		<h3>Top Products</h3>
+		<li>Manage Reputation</li>
+		<li>Power Tools</li>
+		<li>Managed Website</li>
+		<li>Marketing Service</li>
+	</div>
+	<div class="footer-col">
+		<h3>Quick Links</h3>
+		<li>Jobs</li>
+		<li>Brand Assets</li>
+		<li>Investor Relations</li>
+		<li>Terms of Service</li>
+	</div>
+	<div class="footer-col">
+		<h3>Features</h3>
+		<li>Manage Reputation</li>
+		<li>Power Tools</li>
+		<li>Managed Website</li>
+		<li>Marketing Service</li>
+	</div>
+	<div class="footer-col">
+		<h3>Resources</h3>
+		<li>Guides</li>
+		<li>Research</li>
+		<li>Experts</li>
+		<li>Marketing Service</li>
+	</div>
+
+	<div class="footer-col">
+		<h3>New Letter</h3>
+		<p>You can trust us. We only send promo offers</p>
+		<div class="subscribe">
+			<form>
+				<input id="send" type="email" placeholder="Your Email address" class="insert" required>
+			<input type="Submit" name="SUBSCRIBE" class="yellow">
+			</form>
+		</div>
+	</div>
+
+	<div class="copyright">
+		<p>Copyright ©2022 All right reserved | This template is made by Guinea Technology Center </p>
+		<div class="pro-links">
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin-in"></i>
+		</div>
+	</div>
+</footer>
+
+<!--Javscript for Toggle Menu-->
+<script>
+	$('#menu-btn').click(function(){
+		$('nav .navigation ul').addClass('active')
+	});
+
+	$('#menu-close').click(function(){
+		$('nav .navigation ul').removeClass('active')
+	});
+</script>
+</body>
+</html>
